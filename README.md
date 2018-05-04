@@ -10,4 +10,4 @@
 <img src= "example3.png" \>
 <img src= "example4.png" \>
 <h1 name="usage">使用教程</h1>
-更新中……
+详看项目，XZDropDownMenu每个方法都有注释
