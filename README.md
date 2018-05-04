@@ -1,5 +1,5 @@
 # XZDropDownMenu
-这是一个简单易用的下拉筛选多菜单控件，支持自定义排列方式，支持UITableView和UICollectionView的展示方式，可下载直接使用在项目中。
+这是一个简单易用的下拉筛选多菜单控件，支持自定义排列方式，支持UITableView和UICollectionView的展示方式，可下载直接使用在项目中。<br>使用方法与UITableView有异曲同工。
 <p>作者：kizy</p>
 <p>QQ：358033194</p>
 <a href="#case">案例</a>
