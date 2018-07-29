@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "XZDropDownMenu"
-s.version      = "0.0.1"
+s.version      = "0.0.11"
 s.summary      = "ios版简单易用的下拉筛选多菜单控件"
 s.description  = "一个ios版简单易用的下拉筛选多菜单控件，支持自定义排列方式，支持UITableView和UICollectionView的展示方式，可下载直接使用在项目中。"
 
