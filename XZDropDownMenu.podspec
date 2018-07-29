@@ -10,5 +10,5 @@ s.author             = { "kizy" => "358033194@qq.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/mrkizy/XZDropDownMenu.git", :tag => "#{s.version}" }
 s.source_files  = "XZDropDownMenu/*.{h,m}"
-s.dependency  = "Masonry"
+s.dependency "Masonry"
 end
