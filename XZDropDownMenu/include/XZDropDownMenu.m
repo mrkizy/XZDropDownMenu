@@ -98,18 +98,18 @@
 //        NSString *title = [_dataSource menu:self titleForColumn:indexPath.row];
 //        XZDropDownModel *model = [[XZDropDownModel alloc] init];
 //        model.subContet = title;
-//        
+//
 //        if (self.menuModelArray.count > indexPath.item) {
 //            [self.menuModelArray insertObject:model atIndex:indexPath.item];
 //        }else{
 //            [self.menuModelArray addObject:model];
 //        }
-//        
+//
 //        XZDropMenuCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"XZDropMenuCollectionViewCell" forIndexPath:indexPath];
 //        cell.model = model;
 //        return cell;
 //    }
-//    
+//
     XZIndexPath *xzIndexPath = [[XZIndexPath alloc] initWithColumn:collectionView.tag indexPath:indexPath];
     XZDropDownContetCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"XZDropDownContetCell" forIndexPath:indexPath];
     XZDropDownModel *model = [_dataSource menu:self modelForItemOrRowAtXZIndexPath:xzIndexPath];
@@ -459,11 +459,11 @@
 //        collectionView.delegate = self;
 //        [collectionView registerClass:[XZDropMenuCollectionViewCell class] forCellWithReuseIdentifier:@"XZDropMenuCollectionViewCell"];
 //        _menuCollectView = collectionView;
-//        
+//
 //        UIView *line = [[UIView alloc] init];
 //        line.backgroundColor = [UIColor XSJColor_clipLineGray];
 //        self.line = line;
-//        
+//
 //        [self addSubview:collectionView];
 //        [self addSubview:self.line];
 //        [collectionView mas_makeConstraints:^(MASConstraintMaker *make) {

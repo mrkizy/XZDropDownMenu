@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		02FD7F660D171DCA8FCCE22F /* libPods-XZDropDownMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A726923D8181E80BC278BEFF /* libPods-XZDropDownMenu.a */; };
 		637278AC255147B400FBC814 /* ImgTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6372789F255147B400FBC814 /* ImgTextButton.m */; };
-		637278AD255147B400FBC814 /* XZDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A0255147B400FBC814 /* XZDropDownMenu.m */; };
 		637278AE255147B400FBC814 /* XZDropDownContetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A2255147B400FBC814 /* XZDropDownContetCell.m */; };
 		637278AF255147B400FBC814 /* XZDropDownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A3255147B400FBC814 /* XZDropDownModel.m */; };
 		637278B0255147B400FBC814 /* XDropDowmMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A5255147B400FBC814 /* XDropDowmMenuCell.m */; };
 		637278B1255147B400FBC814 /* UIView+XZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A7255147B400FBC814 /* UIView+XZExtension.m */; };
 		637278B625514A4300FBC814 /* WDConst.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 637278A4255147B400FBC814 /* WDConst.h */; };
-		637278B725514A4300FBC814 /* XZDropDownMenu.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 637278AA255147B400FBC814 /* XZDropDownMenu.h */; };
 		637278B925514A4300FBC814 /* XZDropDownModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 637278A1255147B400FBC814 /* XZDropDownModel.h */; };
+		637278C02551512700FBC814 /* XZDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278BF2551512700FBC814 /* XZDropDownMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +26,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				637278B625514A4300FBC814 /* WDConst.h in CopyFiles */,
-				637278B725514A4300FBC814 /* XZDropDownMenu.h in CopyFiles */,
 				637278B925514A4300FBC814 /* XZDropDownModel.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,7 +37,6 @@
 		3F1A9E87E6F209C8100FA1FA /* Pods-XZDropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZDropDownMenu.debug.xcconfig"; path = "Target Support Files/Pods-XZDropDownMenu/Pods-XZDropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
 		6372788D2551472100FBC814 /* libXZDropDownMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXZDropDownMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6372789F255147B400FBC814 /* ImgTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgTextButton.m; sourceTree = "<group>"; };
-		637278A0255147B400FBC814 /* XZDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDropDownMenu.m; sourceTree = "<group>"; };
 		637278A1255147B400FBC814 /* XZDropDownModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDropDownModel.h; sourceTree = "<group>"; };
 		637278A2255147B400FBC814 /* XZDropDownContetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDropDownContetCell.m; sourceTree = "<group>"; };
 		637278A3255147B400FBC814 /* XZDropDownModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDropDownModel.m; sourceTree = "<group>"; };
@@ -49,8 +46,9 @@
 		637278A7255147B400FBC814 /* UIView+XZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZExtension.m"; sourceTree = "<group>"; };
 		637278A8255147B400FBC814 /* XDropDowmMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDropDowmMenuCell.h; sourceTree = "<group>"; };
 		637278A9255147B400FBC814 /* ImgTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgTextButton.h; sourceTree = "<group>"; };
-		637278AA255147B400FBC814 /* XZDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDropDownMenu.h; sourceTree = "<group>"; };
 		637278AB255147B400FBC814 /* XZDropDownContetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDropDownContetCell.h; sourceTree = "<group>"; };
+		637278BE2551512700FBC814 /* XZDropDownMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZDropDownMenu.h; sourceTree = "<group>"; };
+		637278BF2551512700FBC814 /* XZDropDownMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZDropDownMenu.m; sourceTree = "<group>"; };
 		A726923D8181E80BC278BEFF /* libPods-XZDropDownMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZDropDownMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				637278A4255147B400FBC814 /* WDConst.h */,
-				637278AA255147B400FBC814 /* XZDropDownMenu.h */,
-				637278A0255147B400FBC814 /* XZDropDownMenu.m */,
+				637278BE2551512700FBC814 /* XZDropDownMenu.h */,
+				637278BF2551512700FBC814 /* XZDropDownMenu.m */,
 				637278A1255147B400FBC814 /* XZDropDownModel.h */,
 				637278A3255147B400FBC814 /* XZDropDownModel.m */,
 			);
@@ -214,7 +212,7 @@
 				637278B1255147B400FBC814 /* UIView+XZExtension.m in Sources */,
 				637278AF255147B400FBC814 /* XZDropDownModel.m in Sources */,
 				637278AC255147B400FBC814 /* ImgTextButton.m in Sources */,
-				637278AD255147B400FBC814 /* XZDropDownMenu.m in Sources */,
+				637278C02551512700FBC814 /* XZDropDownMenu.m in Sources */,
 				637278AE255147B400FBC814 /* XZDropDownContetCell.m in Sources */,
 				637278B0255147B400FBC814 /* XDropDowmMenuCell.m in Sources */,
 			);
