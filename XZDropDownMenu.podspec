@@ -9,6 +9,6 @@ s.license      = "MIT"
 s.author             = { "kizy" => "358033194@qq.com" }
 s.platform     = :ios, "10.0"
 s.source       = { :git => "https://github.com/mrkizy/XZDropDownMenu.git", :tag => "#{s.version}" }
-s.source_files  = "XZDropDownMenu/*.{h,m}"
+s.source_files  = "XZDropDownMenu/*/*.{h,m}"
 s.dependency "Masonry"
 end
