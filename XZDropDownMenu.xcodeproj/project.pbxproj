@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02FD7F660D171DCA8FCCE22F /* libPods-XZDropDownMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A726923D8181E80BC278BEFF /* libPods-XZDropDownMenu.a */; };
+		637278AC255147B400FBC814 /* ImgTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6372789F255147B400FBC814 /* ImgTextButton.m */; };
+		637278AD255147B400FBC814 /* XZDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A0255147B400FBC814 /* XZDropDownMenu.m */; };
+		637278AE255147B400FBC814 /* XZDropDownContetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A2255147B400FBC814 /* XZDropDownContetCell.m */; };
+		637278AF255147B400FBC814 /* XZDropDownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A3255147B400FBC814 /* XZDropDownModel.m */; };
+		637278B0255147B400FBC814 /* XDropDowmMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A5255147B400FBC814 /* XDropDowmMenuCell.m */; };
+		637278B1255147B400FBC814 /* UIView+XZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 637278A7255147B400FBC814 /* UIView+XZExtension.m */; };
+		637278B625514A4300FBC814 /* WDConst.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 637278A4255147B400FBC814 /* WDConst.h */; };
+		637278B725514A4300FBC814 /* XZDropDownMenu.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 637278AA255147B400FBC814 /* XZDropDownMenu.h */; };
+		637278B925514A4300FBC814 /* XZDropDownModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 637278A1255147B400FBC814 /* XZDropDownModel.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6372788B2551472100FBC814 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				637278B625514A4300FBC814 /* WDConst.h in CopyFiles */,
+				637278B725514A4300FBC814 /* XZDropDownMenu.h in CopyFiles */,
+				637278B925514A4300FBC814 /* XZDropDownModel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		180FB354622589812209106D /* Pods-XZDropDownMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZDropDownMenu.release.xcconfig"; path = "Target Support Files/Pods-XZDropDownMenu/Pods-XZDropDownMenu.release.xcconfig"; sourceTree = "<group>"; };
+		3F1A9E87E6F209C8100FA1FA /* Pods-XZDropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZDropDownMenu.debug.xcconfig"; path = "Target Support Files/Pods-XZDropDownMenu/Pods-XZDropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		6372788D2551472100FBC814 /* libXZDropDownMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXZDropDownMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6372789F255147B400FBC814 /* ImgTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgTextButton.m; sourceTree = "<group>"; };
+		637278A0255147B400FBC814 /* XZDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDropDownMenu.m; sourceTree = "<group>"; };
+		637278A1255147B400FBC814 /* XZDropDownModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDropDownModel.h; sourceTree = "<group>"; };
+		637278A2255147B400FBC814 /* XZDropDownContetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDropDownContetCell.m; sourceTree = "<group>"; };
+		637278A3255147B400FBC814 /* XZDropDownModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDropDownModel.m; sourceTree = "<group>"; };
+		637278A4255147B400FBC814 /* WDConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDConst.h; sourceTree = "<group>"; };
+		637278A5255147B400FBC814 /* XDropDowmMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDropDowmMenuCell.m; sourceTree = "<group>"; };
+		637278A6255147B400FBC814 /* UIView+XZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XZExtension.h"; sourceTree = "<group>"; };
+		637278A7255147B400FBC814 /* UIView+XZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZExtension.m"; sourceTree = "<group>"; };
+		637278A8255147B400FBC814 /* XDropDowmMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDropDowmMenuCell.h; sourceTree = "<group>"; };
+		637278A9255147B400FBC814 /* ImgTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgTextButton.h; sourceTree = "<group>"; };
+		637278AA255147B400FBC814 /* XZDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDropDownMenu.h; sourceTree = "<group>"; };
+		637278AB255147B400FBC814 /* XZDropDownContetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDropDownContetCell.h; sourceTree = "<group>"; };
+		A726923D8181E80BC278BEFF /* libPods-XZDropDownMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZDropDownMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6372788A2551472100FBC814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FD7F660D171DCA8FCCE22F /* libPods-XZDropDownMenu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F0079101BB0A870F11247DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A9E87E6F209C8100FA1FA /* Pods-XZDropDownMenu.debug.xcconfig */,
+				180FB354622589812209106D /* Pods-XZDropDownMenu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		637278842551472100FBC814 = {
+			isa = PBXGroup;
+			children = (
+				6372788F2551472100FBC814 /* XZDropDownMenu */,
+				6372788E2551472100FBC814 /* Products */,
+				5F0079101BB0A870F11247DE /* Pods */,
+				F200B55B3BC8D3EA89F88EA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6372788E2551472100FBC814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6372788D2551472100FBC814 /* libXZDropDownMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6372788F2551472100FBC814 /* XZDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				637278B3255147BD00FBC814 /* include */,
+				637278A9255147B400FBC814 /* ImgTextButton.h */,
+				6372789F255147B400FBC814 /* ImgTextButton.m */,
+				637278A7255147B400FBC814 /* UIView+XZExtension.m */,
+				637278A6255147B400FBC814 /* UIView+XZExtension.h */,
+				637278A8255147B400FBC814 /* XDropDowmMenuCell.h */,
+				637278A5255147B400FBC814 /* XDropDowmMenuCell.m */,
+				637278AB255147B400FBC814 /* XZDropDownContetCell.h */,
+				637278A2255147B400FBC814 /* XZDropDownContetCell.m */,
+			);
+			path = XZDropDownMenu;
+			sourceTree = "<group>";
+		};
+		637278B3255147BD00FBC814 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				637278A4255147B400FBC814 /* WDConst.h */,
+				637278AA255147B400FBC814 /* XZDropDownMenu.h */,
+				637278A0255147B400FBC814 /* XZDropDownMenu.m */,
+				637278A1255147B400FBC814 /* XZDropDownModel.h */,
+				637278A3255147B400FBC814 /* XZDropDownModel.m */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F200B55B3BC8D3EA89F88EA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A726923D8181E80BC278BEFF /* libPods-XZDropDownMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6372788C2551472100FBC814 /* XZDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637278962551472100FBC814 /* Build configuration list for PBXNativeTarget "XZDropDownMenu" */;
+			buildPhases = (
+				D9977E07EED99B368135A142 /* [CP] Check Pods Manifest.lock */,
+				637278892551472100FBC814 /* Sources */,
+				6372788A2551472100FBC814 /* Frameworks */,
+				6372788B2551472100FBC814 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XZDropDownMenu;
+			productName = XZDropDownMenu;
+			productReference = 6372788D2551472100FBC814 /* libXZDropDownMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637278852551472100FBC814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6372788C2551472100FBC814 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 637278882551472100FBC814 /* Build configuration list for PBXProject "XZDropDownMenu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637278842551472100FBC814;
+			productRefGroup = 6372788E2551472100FBC814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6372788C2551472100FBC814 /* XZDropDownMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9977E07EED99B368135A142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XZDropDownMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637278892551472100FBC814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637278B1255147B400FBC814 /* UIView+XZExtension.m in Sources */,
+				637278AF255147B400FBC814 /* XZDropDownModel.m in Sources */,
+				637278AC255147B400FBC814 /* ImgTextButton.m in Sources */,
+				637278AD255147B400FBC814 /* XZDropDownMenu.m in Sources */,
+				637278AE255147B400FBC814 /* XZDropDownContetCell.m in Sources */,
+				637278B0255147B400FBC814 /* XDropDowmMenuCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		637278942551472100FBC814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		637278952551472100FBC814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637278972551472100FBC814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1A9E87E6F209C8100FA1FA /* Pods-XZDropDownMenu.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		637278982551472100FBC814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180FB354622589812209106D /* Pods-XZDropDownMenu.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637278882551472100FBC814 /* Build configuration list for PBXProject "XZDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637278942551472100FBC814 /* Debug */,
+				637278952551472100FBC814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637278962551472100FBC814 /* Build configuration list for PBXNativeTarget "XZDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637278972551472100FBC814 /* Debug */,
+				637278982551472100FBC814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637278852551472100FBC814 /* Project object */;
+}
